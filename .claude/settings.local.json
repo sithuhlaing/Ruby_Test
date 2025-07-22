@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle update:*)",
+      "Bash(bundle install:*)",
+      "Bash(rm:*)",
+      "Bash(bundle config set:*)",
+      "Bash(bundle exec rails:*)",
+      "Bash(/dev/null)",
+      "Bash(bundle exec:*)",
+      "Bash(bundle config:*)"
+    ],
+    "deny": []
+  }
+}
